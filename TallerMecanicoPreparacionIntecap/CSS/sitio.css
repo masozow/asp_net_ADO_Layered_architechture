@@ -1,0 +1,192 @@
+﻿body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:0;
+    margin:0;
+}
+.contenedor{
+    display:block;
+    position:relative;
+    top:0;
+    text-align:center;
+    width:98%;
+    margin-top:2em;
+    padding:0.1em 0.5em;
+}
+.alerta{
+    display:none;
+    position:absolute;
+    top:0em;
+    right:1em;
+    font-weight:700;
+    text-align:left;
+    padding:0.1em 0.5em;
+    margin:1em 0;
+    width:50em;
+    min-height:2em;
+    border-radius:1em;
+    line-height:2em;
+}
+.alerta.exito{
+    background-color:palegreen;
+    color:black;
+}
+.alerta .centrarVertical{
+    line-height:inherit;
+}
+.alerta.error{
+    background-color:indianred;
+    color:white;
+}
+.alerta.advertencia{
+    background-color:lightyellow;
+    color:black;
+}
+.fila{
+    margin:0.5em 0;
+    padding:0.5% 0.5%;
+    display:block;
+    position:relative;
+    width:100%;
+}
+.col1Izq{
+    display:inline-block;
+    margin:0;
+    width:8%;
+    padding:0;
+    text-align:left;
+    min-height:1em;
+}
+.col2{
+    display:inline-block;
+    width:15.8%;
+    margin:0 3px;
+    padding:0 3px;
+    text-align:left;
+    min-height:1em;
+    vertical-align:top;
+    position:relative;
+    top:0;
+    left:0;
+}
+.col3Izq{
+    display:inline-block;
+    margin:0;
+    width:24.5%;
+    padding:0;
+    text-align:left;
+}
+.col1Der{
+    display:inline-block;
+    margin:0;
+    width:8%;
+    padding:0;
+    text-align:right;
+    min-height:1em;
+}
+.col3Der{
+    display:inline-block;
+    width:24.5%;
+    padding:0;
+    text-align:right;
+}
+.col10{
+    display:inline-block;
+    margin:0 3px;
+    padding:0 3px;
+    width:82.5%;
+    padding:0;
+    text-align:left;
+    min-height:1em;
+}
+input[type=text]{
+    width:95%;
+    padding:0.5em;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom:solid 1px darkgray;
+}
+    input[type=text]:focus {
+        border-bottom:solid 1px darkblue;
+    }
+.boton{
+    width:10em;
+    height:3em;
+    line-height:3em;
+    overflow:hidden;
+    display:block;
+    position:relative;
+    right:0;
+    bottom:0;
+    color:white;
+    padding:0.1em 0.2em;
+    border-radius:0.5em;
+    text-decoration:none;
+    float:right;
+    font-weight:600;
+    text-align:center;
+}
+.boton.botonEditar{
+    background-color: rgba(246, 213, 92,0.9);
+}
+
+.boton.botonSubmit{
+    background-color: rgba(47, 65, 109,0.9);
+    
+}
+    .botonSubmit:hover {
+        transition:0.3s;
+        background-color: rgba(47, 65, 109,0.7);
+        font-weight:700;
+    }
+.etiqueta{
+    font-size:1em;
+    font-weight:700;
+}
+/****************************** Tablas **************************************/
+.tabla{
+    margin-left:2em;
+    width:95%;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+}
+th, td{
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom:1px solid  black;
+}
+tr:nth-child(even){
+    background-color:lightgray;
+}
+.columna{
+    width:20em;
+    min-height:1em;
+}
+/*******************************   Menú *************************************/
+.menu {
+    position:fixed;
+    height: 100%;
+    width: 18%;
+    margin:0;
+    padding:1px;
+    text-align: center;
+    background-color: rgba(20, 134, 140,0.3);
+}
+.elementoMenu{
+    background-color: rgba(20, 134, 140,0.9);
+    color:white;
+    font-weight:700;
+    display:block;
+    min-height: 2em;
+    line-height: 2em;
+    margin:1px 0;
+    padding:0.5em 1em;
+    width:85%;
+    text-decoration:none;
+}
+    .elementoMenu:hover {
+        transition:0.3s;
+        background-color: rgba(20, 134, 140,0.7);
+    }

@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PagMaestra.master.cs" Inherits="TallerMecanicoPreparacionIntecap.PagMaestra" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="CSS/sitio.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <script type="text/javascript" src="Scripts/sitio.js"></script>
+    <div class="col2">
+        <div class="menu">
+            <a href="AgregarEstudiante.aspx" class="elementoMenu">Agregar estudiante</a>
+            <a href="VerEstudiatnes.aspx" class="elementoMenu">Ver estudiantes</a>
+            <a href="#" class="elementoMenu">Opción3</a>
+            <a href="#" class="elementoMenu">Opción4</a>
+            <a href="#" class="elementoMenu">Opción5</a>
+            <a href="#" class="elementoMenu">Opción6</a>
+        </div>
+    </div>
+    <div class="col10">
+        <form id="form1" runat="server">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </form>
+    </div>
+</body>
+</html>
